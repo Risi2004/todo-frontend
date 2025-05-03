@@ -1,0 +1,94 @@
+/* App.css */
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px; /* Slightly wider container */
+}
+
+.input-section {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.fruit-list-title {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 2em; /* Slightly larger title */
+}
+
+.fruit-list {
+  list-style: none;
+  padding: 0;
+}
+
+.fruit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px; /* More vertical padding */
+  border-bottom: 1px solid #eee;
+}
+
+.fruit-item:last-child {
+  border-bottom: none;
+}
+
+.fruit-name {
+  flex-grow: 1;
+  text-align: left;
+  font-size: 1.2em; /* Slightly larger fruit name */
+  color: #555;
+  margin-right: 15px; /* Add some right margin to separate from the button */
+}
+
+.delete-button {
+  background-color: #dc3545; /* Red color for delete */
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
